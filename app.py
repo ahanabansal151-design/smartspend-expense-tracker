@@ -2,9 +2,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from expense_core import DEFAULT_BUDGETS, process_expenses, make_report
-
-st.set_page_config(page_title="SmartSpend | Student Expense Tracker", page_icon="💸", layout="wide")
-st.title("💸 SmartSpend — Student Expense Tracker")
+st.set_page_config(page_title="SmartSpend Student Expense Tracker", page_icon="📊", layout="wide")
+st.title(" SmartSpend: Student Expense Tracker")
 st.caption("Upload an Excel workbook → inspect your spending and budget alerts → download one complete Excel report.")
 with st.sidebar:
     st.header("Monthly budgets (₹)")
